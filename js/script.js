@@ -4,7 +4,7 @@ function init(){
   var results = document.getElementById('textoutput');
   var button = document.getElementById('entrybutton');
   button.addEventListener('click', function(){
-    results.innerHTML = '<h2>' + input.value + '</h2>';
+    results.innerHTML = input.value;
     alert("Juan Gonzalez: " + input.value);
   });
 }
